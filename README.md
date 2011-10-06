@@ -1,5 +1,5 @@
 # BoilerPenguin
-## A set of html/css/js templates to get coding going faster. This boilerplate can help get projects get going faster, or setup sandbox files quicker to test new techniques.
+A set of html/css/js templates to get coding going faster. This boilerplate can help get projects get going faster, or setup sandbox files quicker to test new techniques.
 
 ### Markup
 
