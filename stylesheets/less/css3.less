@@ -1,0 +1,50 @@
+/* Border Radius
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+.border-radius(@arguments: 5px) {
+	-webkit-border-radius: @arguments;
+	-moz-border-radius: @arguments;
+	border-radius: @arguments;
+	}
+	
+
+/* Box Shadows
+/* From CSS3 mixins for LESS projects by Matthew Wagerfield. http://twitter.com/#!/mwagerfield
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+.box-shadow(@shadow-x: 0, 
+            @shadow-y: 0, 
+            @shadow-rad: 10px, 
+            @shadow-color: #CCC) 
+{
+    -webkit-box-shadow: @shadow-x @shadow-y @shadow-rad @shadow-color;
+    -moz-box-shadow:    @shadow-x @shadow-y @shadow-rad @shadow-color;
+    -o-box-shadow:      @shadow-x @shadow-y @shadow-rad @shadow-color;
+    box-shadow:         @shadow-x @shadow-y @shadow-rad @shadow-color;
+}
+
+.box-shadow-inset(  @shadow-x: 0, 
+                    @shadow-y: 0, 
+                    @shadow-rad: 10px, 
+                    @shadow-color: #CCC) 
+{
+    -webkit-box-shadow: inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+    -moz-box-shadow:    inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+    -o-box-shadow:      inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+    box-shadow:         inset @shadow-x @shadow-y @shadow-rad @shadow-color;
+}
+
+
+/* Transition
+/* From CSS3 mixins for LESS projects by Matthew Wagerfield. http://twitter.com/#!/mwagerfield
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+.transition (   @range: all, 
+                @time: 0.2s, 
+                @ease: ease-in-out) 
+{
+    -webkit-transition: @range @time @ease;
+    -moz-transition:    @range @time @ease;
+    -o-transition:      @range @time @ease;
+    transition:         @range @time @ease;
+}

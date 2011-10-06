@@ -1,0 +1,17 @@
+/* humanstxt.org | the humans responsible & colophon */
+
+
+/* TEAM */
+  Developer: Nathan Shubert-Harbison
+  Site: http://www.littlepenguinstudio.com
+  Twitter: @nathanshubert
+  Location: Vancouver, BC, Canada
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, LESS
+  Software: TextMate, LESS App
+
+
+/* THANKS */
