@@ -1,10 +1,10 @@
 /* Included Stylesheets & Fonts
 + + + + + + + + + + + + + + + + + + + + + + + + + + + */
 
-@import url('normalize.css');
-@import "variables";
-@import "mixins";
-@import "css3";
+@import "normalize"; // Uncomment to use normalize.css
+// @import "meyer";
+@import "library";
+
 
 /* Basic Document Setup
 + + + + + + + + + + + + + + + + + + + + + + + + + + + */
@@ -26,7 +26,7 @@
 		.box-shadow(0, 1px, 5px, rgba(0,0,0,.1));
 		padding: 20px;
 		}
-				
+
 	a {
 		.underline_hover;
 		}
@@ -82,7 +82,13 @@ header#masthead {
 	#main_content {
 		width: 60%;
 		float: left;
-		padding-right: 5%
+		padding-right: 5%;
+		p, ul, ol {
+			.body_copy;
+			}
+		a {
+			.body_link;
+			}
 		}
 		
 	#sidebar {
@@ -106,3 +112,8 @@ header#masthead {
 	padding-top: 2em;
 	margin-top: 2em;
 	}
+
+/* Responsive
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+@import "responsive";

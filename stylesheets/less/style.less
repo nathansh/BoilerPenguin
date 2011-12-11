@@ -1,9 +1,14 @@
 /* Included Stylesheets & Fonts
 + + + + + + + + + + + + + + + + + + + + + + + + + + + */
 
-@import url('meyer.css');
-@import "mixins";
-@import "css3";
+// User your preferred reset method. To use normalize
+// instead of the Eric Meyer reset uncomment the follwing
+// import statement.  Remember to comment out 'meyer'
+// if not using.
+// @import "normalize";
+@import "meyer";
+@import "library";
+
 
 /* Basic Document Setup
 + + + + + + + + + + + + + + + + + + + + + + + + + + + */
@@ -28,3 +33,8 @@
 /* Footer
 + + + + + + + + + + + + + + + + + + + + + + + + + + + */
 
+
+/* Responsive
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+@import "responsive";

@@ -1,6 +1,46 @@
-@import url('normalize.css');
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+[hidden]{display:none;}
+html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{margin:0;}
+a{color:#00e;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+abbr[title]{border-bottom:1px dotted;}
+b,strong{font-weight:bold;}
+blockquote{margin:1em 40px;}
+dfn{font-style:italic;}
+mark{background:#ff0;color:#000;}
+pre,code,kbd,samp{font-family:monospace, serif;_font-family:'courier new',monospace;font-size:1em;}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+q{quotes:none;}
+q:before,q:after{content:'';content:none;}
+small{font-size:75%;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+ul,ol{margin:1em 0;padding:0 0 0 40px;}
+dd{margin:0 0 0 40px;}
+nav ul,nav ol{list-style:none;list-style-image:none;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+svg:not(:root){overflow:hidden;}
+figure{margin:0;}
+form{margin:0;}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+legend{border:0;*margin-left:-7px;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+textarea{overflow:auto;vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}
 .underline_hover{text-decoration:none;}.underline_hover:hover{text-decoration:underline;}
-.link_color{color:#000000;}.link_color:hover{color:#666666;}
+.body_link{color:#ff7e00;text-decoration:none;}.body_link:hover{text-decoration:underline;}
+.body_copy{font-size:14px;line-height:1.35em;color:#333333;}
 body,button,input,select,textarea{font-family:"Helvetica Neue",Arial,sans-serif;}
 body{background-color:#eee;}
 .wrapper{background-color:#fff;width:90%;margin:30px auto 50px;border:1px solid #bbb;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);-moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);-o-box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);box-shadow:0 1px 5px rgba(0, 0, 0, 0.1);padding:20px;}
@@ -8,6 +48,8 @@ a{text-decoration:none;}a:hover{text-decoration:underline;}
 header#masthead h1{font-weight:100;margin:5px 0;}
 header#masthead nav#primary ul{padding:0;}header#masthead nav#primary ul li{display:inline;padding-right:1em;margin-right:1em;border-right:1px solid #ababab;}header#masthead nav#primary ul li:last-child{border-right:none;}
 header#masthead nav#primary ul a{color:#000;font-weight:bold;font-size:13px;text-decoration:none;}header#masthead nav#primary ul a:hover{color:#666;}
-#main{overflow:hidden;}#main #main_content{width:60%;float:left;padding-right:5%;}
+#main{overflow:hidden;}#main #main_content{width:60%;float:left;padding-right:5%;}#main #main_content p,#main #main_content ul,#main #main_content ol{font-size:14px;line-height:1.35em;color:#333333;}
+#main #main_content a{color:#ff7e00;text-decoration:none;}#main #main_content a:hover{text-decoration:underline;}
 #main #sidebar{width:30%;margin-right:5%;float:right;font-size:.85em;}
 .wrapper>footer{width:100%;clear:both;font-size:.8em;border-top:1px solid #ddd;padding-top:2em;margin-top:2em;}
+@media screen and (max-width: 1024px){}@media screen and (max-width: 768px){}@media screen and (max-width: 640px){.wrapper{width:95%;padding:2%;} #masthead{text-align:center;} #main #main_content,#main #sidebar{width:100%;float:none;} #main #main_content{border-bottom:1px solid #ddd;padding-bottom:2em;margin-bottom:2em;}}@media screen and (max-width: 480px){}@media screen and (max-width: 320px){}

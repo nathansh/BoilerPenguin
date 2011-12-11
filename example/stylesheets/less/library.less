@@ -1,0 +1,24 @@
+@import "css3";
+@import "variables";
+
+
+/* Mixins
++ + + + + + + + + + + + + + + + + + + + + + + + + + + */
+
+.underline_hover {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+		}
+	}
+	
+.body_link {
+	color: @link_colour;
+	.underline_hover;
+	}
+	
+.body_copy {
+	font-size: @body_copy_size;
+	line-height: 1.35em;
+	color: @body_copy_colour;
+	}

@@ -1,4 +1,18 @@
-@import url('meyer.css');
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.ie img{border:0;-ms-interpolation-mode:bicubic;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
 .underline_hover{text-decoration:none;}.underline_hover:hover{text-decoration:underline;}
-.link_color{color:#000000;}.link_color:hover{color:#666666;}
+.body_link{color:#004080;text-decoration:none;}.body_link:hover{text-decoration:underline;}
+.body_copy{font-size:14px;line-height:1.35em;color:#333333;}
 body,button,input,select,textarea{font-family:"Helvetica Neue",Arial,sans-serif;}
+@media screen and (max-width: 1024px){}@media screen and (max-width: 768px){}@media screen and (max-width: 640px){}@media screen and (max-width: 480px){}@media screen and (max-width: 320px){}

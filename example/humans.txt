@@ -2,16 +2,16 @@
 
 
 /* TEAM */
-  Developer: Nathan Shubert-Harbison
-  Site: http://www.littlepenguinstudio.com
-  Twitter: @nathanshubert
-  Location: Vancouver, BC, Canada
+  Developer: 
+  Site: 
+  Twitter: 
+  Location: 
 
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, LESS
-  Software: TextMate, LESS App
+  Software: 
 
 
 /* THANKS */
