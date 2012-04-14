@@ -9,6 +9,8 @@ The markup is clean, semantic html5.
 
 The LESS superset of CSS brings a lot of functionality to CSS that developers have been wanting: variables, functions, nested selectors... as a whole LESS enables faster css development, leaner CSS files, and a more enjoyable development process in general. As such, BoilerPenguin is centered around LESS. A lot of people use Sass, which is also fantastic. The features are so similar that it's a matter of preference, and I've included LESS files as that's what I use in my own workflow.
 
+You only need to compile style.less and ie.less
+
 ### library.less
 
 This file imports your variables, css3 library, and any other libraries you wish to include. It also contains your mixins.
